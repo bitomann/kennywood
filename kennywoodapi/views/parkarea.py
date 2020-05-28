@@ -4,7 +4,7 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers
 from rest_framework import status
-from kennywoodapi.models import ParkArea, Attraction
+from kennywoodapi.models import ParkArea, Attraction, Itinerary
 
 
 class ParkAreaSerializer(serializers.HyperlinkedModelSerializer):
